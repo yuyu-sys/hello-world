@@ -1,0 +1,17 @@
+2019-04-23 09:07:20,460  INFO  [getPropValues] Reading properties from: C:\Users\dragos.mosoiu\Desktop\Automation\eposautomation\src\test\resources\config.properties 
+2019-04-23 09:07:21,335  INFO  [PrepareDatabaseConfigurationsForTests] *** Successfully connected to: vappdev01db.devcrm.orange.intra database 
+2019-04-23 09:07:21,569  INFO  [setEposUserSettings] *** ePOS user will be configured in ePOS database 
+2019-04-23 09:07:21,569  INFO  [setEposUserSettings] *** ePOS user reconfigured 
+2019-04-23 09:07:21,585  INFO  [setSurveyPopUpSettings] *** ePOS survey will be disabled 
+2019-04-23 09:07:21,600  INFO  [setSurveyPopUpSettings] *** ePOS survey disabled 
+2019-04-23 09:07:21,600  INFO  [setGdprSettings] *** ePOS GDPR will be disabled 
+2019-04-23 09:07:21,616  INFO  [setGdprSettings] *** ePOS GDPR disabled 
+2019-04-23 09:07:21,647  INFO  [insertMSISDN] Executed query: delete from npn_numbers where npn_number_id=1; 
+2019-04-23 09:07:21,694  INFO  [insertMSISDN] Executed query: delete from np.npnp_number_platform where npnp_number_id in (select NPN_NUMBER_ID from npn_numbers where npn_number = '0740000000') 
+2019-04-23 09:07:21,772  INFO  [insertMSISDN] Executed query: delete from swbapps.mbr_subscribers where swmsisdn = '0740000000') 
+2019-04-23 09:07:21,787  INFO  [insertMSISDN] Executed query: delete from np.npn_numbers where NPN_NUMBER = '0740000000') 
+2019-04-23 09:07:21,787  INFO  [insertMSISDN] Old MSISDN (0740000000) cleared from DB 
+2019-04-23 09:07:21,819  INFO  [insertMSISDN] MSISDN '0740000000' inserted in DB and ready to use in test 
+2019-04-23 09:07:21,819  INFO  [insertPhoneIMEI] Old IMEI (IMEITEST0000000) cleared from DB 
+2019-04-23 09:07:21,850  INFO  [insertPhoneIMEI] IMEI 'IMEITEST0000000' inserted in DB and ready to use in test 
+2019-04-23 09:07:21,850  INFO  [PrepareDatabaseConfigurationsForTests] Database manupulation complete, closeing JDBC connection 
